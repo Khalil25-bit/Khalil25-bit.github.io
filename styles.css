@@ -8,17 +8,31 @@ body {
     display: flex;
     padding: 10 px;
     margin:10px;
-    background: lightgrey;
+    background: lightcoral;
 }
 
 .assignment img{
 
     width: 200px;
-    padding: 10px;
+    margin: 10 px;
+    border: 2px solid lightsteelblue;
+    border-radius: 20px;
 
+}
+assignment img:hover{
+    color: antiquewhite;
 }
 
 h1 {
-    color: purple;
+    color: darkmagenta;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover{
+    color: white;
 }
