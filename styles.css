@@ -51,4 +51,5 @@ h2{
 
 p{
     text-align: center;
+    min-width: 200px;
 }
